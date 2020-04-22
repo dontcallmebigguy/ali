@@ -48,9 +48,6 @@ body * {
 @media only screen and (max-width: 600px) {
     .card {
         box-shadow: none;
-        margin-top: 2em;
-    }
-    .avatar {
-        /* margin-left: 2em; */
+        margin-top: 1em;
     }
 }
