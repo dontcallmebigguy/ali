@@ -42,6 +42,10 @@ body * {
     -webkit-flex-direction: row;
 }
 
+h2 {
+    color: #fc4db9;
+}
+
 .link:hover {
     color: #fc4db9
 }
@@ -49,7 +53,7 @@ body * {
 @media only screen and (max-width: 600px) {
     .card {
         width: 100%;
-        margin: auto 0;
+        margin: auto 0gi;
         box-shadow: none;
         margin-top: -1em;
     }
