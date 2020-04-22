@@ -47,7 +47,8 @@ h2 {
 }
 
 .link:hover {
-    color: #fc4db9
+    color: #fc4db9;
+    transform: scale(1.5);
 }
 
 @media only screen and (max-width: 600px) {
