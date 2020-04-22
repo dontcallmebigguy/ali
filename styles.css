@@ -9,6 +9,7 @@ a {
 }
 
 .card {
+    display: inline-block;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     transition: 0.3s;
     width: 35em;
@@ -18,13 +19,12 @@ a {
 }
 
 body {
-    display: flex;
-    justify-content: center;
+    margin: 0 auto;
 }
 
 .center {
-    display: flex;
     justify-content: center;
+    -webkit-flex-justify-content: center;
 }
 
 .container {
@@ -39,6 +39,7 @@ body * {
 
 .links {
     flex-direction: row;
+    -webkit-flex-direction: row;
 }
 
 .link:hover {
@@ -47,6 +48,8 @@ body * {
 
 @media only screen and (max-width: 600px) {
     .card {
+        width: 100%;
+        margin: auto 0;
         box-shadow: none;
         margin-top: -1em;
     }
