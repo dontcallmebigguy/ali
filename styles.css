@@ -34,7 +34,7 @@ body {
 body,
 body * {
     text-align: center;
-    font-family: "Andale Mono", "monospace";
+    font-family: "Menlo", "monospace";
 }
 
 .links {
