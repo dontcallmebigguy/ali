@@ -48,6 +48,10 @@ h2 {
     color: #fc4db9;
 }
 
+.link {
+    padding: 2px;
+}
+
 .link:hover {
     color: #fc4db9;
     transform: scale(1.5);
