@@ -48,6 +48,6 @@ body * {
 @media only screen and (max-width: 600px) {
     .card {
         box-shadow: none;
-        margin-top: 0em;
+        margin-top: -1em;
     }
 }
