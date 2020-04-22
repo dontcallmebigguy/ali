@@ -8,10 +8,11 @@ export default function Footer() {
         {config.socialLinks.map(social => {
           const { icon, name, url } = social;
           return (
-            <li key={url}>
-              <a href={url} className={`icon ${icon}`}>
+            <li key={url}>cat
+              {/* <a href={url} className={`icon ${icon}`}> */}
+              <i class="fa fa-car" style={{color: red}}></i>
                 <span className="label">{name}</span>
-              </a>
+              {/* </a> */}
             </li>
           );
         })}

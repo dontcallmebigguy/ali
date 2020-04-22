@@ -1,0 +1,56 @@
+.avatar {
+    width: 22em;
+    /* margin: auto;
+    display: block; */
+}
+
+a {
+    color: black;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 35em;
+    height: 40em;
+    margin-top: 8em;
+    padding-top: 2em;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    padding: 2px 16px;
+}
+
+body,
+body * {
+    text-align: center;
+    font-family: "Andale Mono", "monospace";
+}
+
+.links {
+    flex-direction: row;
+}
+
+.link:hover {
+    color: #fc4db9
+}
+
+@media only screen and (max-width: 600px) {
+    .card {
+        box-shadow: none;
+        margin-top: 2em;
+    }
+    .avatar {
+        /* margin-left: 2em; */
+    }
+}
