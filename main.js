@@ -11,7 +11,6 @@ function changeTheme() {
     console.log("Changing theme")
     var body = document.getElementById("body");
     var links = document.getElementsByClassName("link");
-    console.log(body);
     body.classList.toggle("dark-text");
     body.classList.toggle("dark");
     for (i = 0; i < links.length; i++) {
@@ -21,5 +20,6 @@ function changeTheme() {
         localStorage.setItem("ali-nagi-theme", "light");
     } else {
         console.log("changing to dark");
+        localStorage.setItem("ali-nagi-theme", "dark");
     }
 };
