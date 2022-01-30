@@ -53,7 +53,7 @@ body {
 
 body, body * {
     text-align: center;
-    font-family: "Menlo", "monospace";
+    font-family: Menlo, monospace;
 }
 
 .links {
